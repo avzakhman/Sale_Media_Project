@@ -1,0 +1,33 @@
+.clients {
+    position: absolute;
+    top: 647px;
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 33px;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        padding: 20px 0;
+        display: flex;
+        height: 150px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+}
+.client-block {
+    &:last-child {
+        width: 185px;
+        border-right: none;
+    }
+    width: 166px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #E1E1E1;
+    img {
+        width: 114px;
+        height: 70px;
+    }
+}

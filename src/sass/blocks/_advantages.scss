@@ -1,42 +1,46 @@
 .advantages {
+    z-index: 1;
     position: absolute;
-    top: -360px;
-    z-index: 2;
-    &__wrapper {
-        display: flex;
-        background-color: #fff;
-        border-radius: 20px;
-        box-shadow: -1px -1px 10px 4px rgba(black, 0.2);
-        overflow: hidden;
-    }
+    top: 1847px;
+    width: 100%;
+    min-height: 566px;
+    background-color: #fff;
     h2 {
-        margin-bottom: 16px;
-        margin-left: 28px;
-        font-size: 24px;
-        color: white;
-        text-transform: uppercase;
+        top: -67px;
+        position: absolute;
+        font-size: 30px;
         font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        padding: 42px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
-
 .advantage-block {
-    padding: 30px;
-    display: block;
-    width: 294px;
-    height: 162px;
-    border-right: 1px solid #E1E1E1;
-    border-bottom: 6px solid $accent;
+    margin: 30px 0;
+    margin-left: 40px;
+    width: 310px;
     h3 {
-        font-size: 12px;
-        font-weight: 900;
-        text-transform: uppercase;
-        margin-bottom: 16px;
+        position: relative;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        &::before {
+            content: '';
+            width: 30px;
+            height: 30px;
+            display: block;
+            position: absolute;
+            background: url('../icons/check-circle.svg');
+            left: -41px;
+            top: 8px;
+        }
     }
     p {
         font-size: 12px;
-        font-weight: 400;
-    }
-    &:last-child {
-        border-right: none;
+        line-height: 20px;
     }
 }

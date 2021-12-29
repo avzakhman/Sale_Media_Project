@@ -1,0 +1,32 @@
+.job {
+    position: absolute;
+    width: 100%;
+    top: 2263px;
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        display:flex;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+}
+.job-block {
+    width: 294px;
+    min-height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    p {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

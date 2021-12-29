@@ -1,0 +1,32 @@
+.facts {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 1523px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 25px;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+.fact-block {
+    width: 255px;
+    min-height: 121px;
+    p {
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 21px;
+        span {
+            font-size: 64px;
+            line-height: 92px;
+            font-weight: 700;
+            color: $accent;
+        }
+    }
+}

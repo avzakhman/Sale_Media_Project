@@ -1,0 +1,51 @@
+.order {
+    position: absolute;
+    top: 1728px;
+    width: 100%;
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 33px;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+.order-block {
+    padding: 30px;
+    width: 380px;
+    height: 184px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    h3 {
+        display: block;
+        margin-right: 14px;
+        font-size: 64px;
+        color: $accent;
+        font-weight: normal;
+    }
+    p {
+        display: block;
+        position: relative;
+        font-size: 14px;
+        line-height: 20px;
+        &:before {
+            display: block;
+            content: '';
+            margin-bottom: 7px;
+            width: 30px;
+            height: 30px;
+            background: url('../icons/check-circle.svg');
+        }
+        span {
+            font-weight: 700;
+            font-style: italic;
+        }
+    }
+}

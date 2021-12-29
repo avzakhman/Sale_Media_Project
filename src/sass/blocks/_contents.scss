@@ -1,11 +1,16 @@
 .contents {
-    margin-top: 269px;
     width: 100%;
     position: relative;
     height: 1846px;
-    img {
+    &__bg {
         position: absolute;
         object-fit: cover;
-        height: 1754px;
+        width: 100%;
+    }
+    &__no-bg {
+        width: 100%;
+        position: relative;
+        height: 4046px;
+        background-color: #F4F4F4;
     }
 }

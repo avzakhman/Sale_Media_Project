@@ -1,0 +1,49 @@
+.portfolio {
+    width: 100%;
+    position: absolute;
+    top: 944px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 33px;
+    }
+}
+
+.portfolio-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    height: 488px;
+    background-color: #fff;
+    border-radius: 20px;
+    img {
+        width: 100%;
+    }
+    h3 {
+        margin-top: 16px;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    button {
+        margin-top: 24px;
+        width: 152px;
+        height: 40px;
+        border-radius: 15px;
+        border: 1px solid $accent;
+        background-color: #fff;
+        color: $accent;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        outline: none;
+    }
+}
