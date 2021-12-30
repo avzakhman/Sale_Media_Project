@@ -30,6 +30,14 @@
             text-transform: uppercase;
             font-size: 12px;
             font-weight: 700;
+            &:hover {
+                background-color: $hover;
+                color: white;
+            }
+            &:active {
+                background-color: $active;
+                color: white;
+            }
         }
     }
     &__socials {

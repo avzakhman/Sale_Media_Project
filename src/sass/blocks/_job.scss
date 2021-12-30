@@ -29,4 +29,12 @@
         font-weight: 700;
         text-transform: uppercase;
     }
+    &:hover {
+        background-color: $hover;
+        color: white;
+    }
+    &:active {
+        background-color: $active;
+        color: white;
+    }
 }

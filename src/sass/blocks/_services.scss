@@ -55,6 +55,14 @@
         font-weight: 700;
         text-transform: uppercase;
         background-color: #fff;
+        &:hover {
+            background-color: $hover;
+            color: white;
+        }
+        &:active{
+            background-color: $active;
+            color: white;
+        }
     }
     &__special {
         text-align: center;
@@ -130,5 +138,13 @@
         font-weight: 700;
         color: white;
         padding: 0 18px;
+        &:hover {
+            background-color: $hover;
+            color: white;
+        }
+        &:active {
+            background-color: $active;
+            color: white;
+        }
     }
 }
