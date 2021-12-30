@@ -1,0 +1,58 @@
+.cities {
+    width: 100%;
+    background-color: #fff;
+    height: 240px;
+    &__wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+}
+
+.city-block {
+    &:last-child {
+        width: 580px;
+        padding-right: 0;
+
+    }
+    padding-right: 110px;
+    h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 27px;
+        margin-bottom: 11px;
+        &:before {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 4px;
+            background-color: $accent;
+            margin-bottom: 10px;
+        }
+    }
+    address {
+        padding-top: 10px;
+        padding-right: 27px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto;
+        font-style: normal;
+        div {
+            margin-bottom: 12px;
+        }
+        h3 {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 3px;
+            font-weight: 400;
+        }
+        a {
+            
+            font-size: 16px;
+            line-height: 21px;
+            color: black;
+            text-decoration: none;
+        }
+    }
+}

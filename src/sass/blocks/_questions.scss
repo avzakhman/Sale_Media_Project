@@ -1,0 +1,45 @@
+.questions {
+    background-color: $accent;
+    width: 100%;
+    &__wrapper {
+        height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: white;
+        }
+        p {
+            color: white;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            span {
+                font-weight: 700;
+            }
+        }
+        button {
+            width: 180px;
+            height: 39px;
+            background-color: #fff;
+            border: none;
+            border-radius: 15px;
+            color: $accent;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+    &__socials {
+        display: flex;
+        justify-content: space-between;
+        width: 132px;
+        height: 32px;
+        img {
+            height: 32px;
+            width: 32px;
+        }
+    }
+}
