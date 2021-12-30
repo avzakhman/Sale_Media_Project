@@ -3,9 +3,12 @@
     position: relative;
     height: 1846px;
     &__bg {
+        display: block;
         position: absolute;
         object-fit: cover;
-        width: 100%;
+        width: 90%;
+        height: 100%;
+        margin-top: 100px;
     }
     &__no-bg {
         width: 100%;
