@@ -1,6 +1,11 @@
 .banner {
-    position: relative;
+    position: fixed;
+    z-index: 10;
+    bottom: 0px;
+    width: 100%;
     border-top: 6px solid $accent;
+    background-color: #fff;
+
     &__wrapper {
         display: flex;
         justify-content: space-between;
