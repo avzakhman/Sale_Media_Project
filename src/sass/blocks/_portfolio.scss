@@ -1,7 +1,6 @@
 .portfolio {
+    margin-top: 80px;
     width: 100%;
-    position: absolute;
-    top: 944px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -52,6 +51,70 @@
         &:active {
             background-color: $active;
             color: white;
+        }
+    }
+}
+@media(max-width: 1230px) {
+    .portfolio-block {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0px;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 580px;
+        height: 488px;
+        background-color: #fff;
+        border-radius: 20px;
+        img {
+            width: 100%;
+        }
+        h3 {
+            margin-top: 16px;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        button {
+            margin-top: 24px;
+            width: 152px;
+            height: 40px;
+            border-radius: 15px;
+            border: 1px solid $accent;
+            background-color: #fff;
+            color: $accent;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            outline: none;
+            &:hover {
+                background-color: $hover;
+                color: white;
+            }
+            &:active {
+                background-color: $active;
+                color: white;
+            }
+        }
+    }
+}
+@media (max-width: 965px) {
+    .portfolio {
+        &__wrapper {
+            min-width: 1180px;
+            display: flex;
+        }
+        &__scroll {
+            &::-webkit-scrollbar {
+                display: none; /*Chrome, Safari, Opera*/
+            }
+            -ms-overflow-style: none;  /* IE, Edge */
+            scrollbar-width: none;  /* Firefox */
+            overflow: hidden;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
         }
     }
 }

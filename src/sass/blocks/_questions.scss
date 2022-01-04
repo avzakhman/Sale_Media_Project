@@ -1,7 +1,10 @@
 .questions {
     background-color: $accent;
-    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
     &__wrapper {
+        max-width: 100%;
+        overflow: hidden;
         height: 72px;
         display: flex;
         justify-content: space-between;
@@ -48,6 +51,32 @@
         img {
             height: 32px;
             width: 32px;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .questions {
+        &__wrapper {
+            padding: 20px 0;
+            flex-direction: column;
+            height: unset;
+            h2 {
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+        }
+        &__socials {
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .questions {
+        &__wrapper {
+            align-items: flex-start;
         }
     }
 }

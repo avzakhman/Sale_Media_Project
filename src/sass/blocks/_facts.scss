@@ -1,8 +1,7 @@
 .facts {
+    margin-bottom: 145px;
     width: 100%;
-    z-index: 2;
-    position: absolute;
-    top: 1523px;
+    z-index: 1;
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -28,5 +27,33 @@
             font-weight: 700;
             color: $accent;
         }
+    }
+}
+@media(max-width: 1230px) {
+    .facts {
+        padding-left: 10px;
+        padding-right: 10px;
+        h2 {
+            padding-left: 10px;
+        }
+        &__wrapper {
+            justify-content: unset;
+        }
+    }
+    .fact-block{
+        margin-right: 40px;
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+        p {
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+}
+
+@media (max-width: 965px) {
+    .fact-block{
+        width: 300px;
     }
 }

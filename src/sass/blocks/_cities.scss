@@ -1,22 +1,23 @@
 .cities {
     width: 100%;
-    background-color: #fff;
-    height: 240px;
+    margin-top: 50px;
+    overflow: hidden;
+    min-height: 240px;
+    background-color: white;
     &__wrapper {
+        background-color: #fff;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
+        grid-gap: 20px;
+        justify-content: space-between;
+    }
+    &__menu {
+        display: none;
     }
 }
 
 .city-block {
-    &:last-child {
-        width: 580px;
-        padding-right: 0;
-
-    }
-    padding-right: 110px;
     h2 {
         font-size: 22px;
         font-weight: 700;
@@ -54,5 +55,95 @@
             color: black;
             text-decoration: none;
         }
+    }
+}
+
+@media(max-width: 1230px) {
+    
+    .city-block {
+        h2 {
+            font-size: 20px;
+            margin-top: 22px;
+            margin-bottom: 9px;
+            &:before {
+                margin-bottom: 8px;
+            }
+        }
+        address {
+            padding-right: 00px;
+            div {
+                margin-bottom: 10px;
+            }
+            h3 {
+                font-size: 13px;
+            }
+            a {
+                font-size: 14px;
+                line-height: 18px;
+                
+            }
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    .cities {
+        background-color: unset;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        &__wrapper {
+            overflow: hidden;
+            border-radius: 20px;
+            grid-gap: 0px;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        &__menu {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            button {
+                border: none;
+                outline: none;
+                font-size: 18px;
+                font-weight: 700;
+                color: #444444;
+                text-align: center;
+                height: 56px;
+                background-color: white;
+                border-bottom: 1px solid #F4F4F4;
+                &:hover {
+                    background-color: $accent;
+                    color: white;
+                }
+            }
+        }
+    }
+    .city-block {
+        h2 {
+            display: none;
+        }
+        hr {
+            display: none;
+        }
+        address {
+            color: #444444;
+            padding: 20px;
+            display: block;
+            div {
+                margin-bottom: 0px;
+            }
+            h3 {
+                margin-top: 20px;
+                font-size: 11px;
+                margin-bottom: 7px;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    .city-block__hidden {
+        display: none;
     }
 }

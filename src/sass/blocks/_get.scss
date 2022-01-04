@@ -1,7 +1,8 @@
 .get {
-    position: absolute;
+    margin-top: 82px;
     width: 100%;
-    top: 2697px;
+    padding-left: 20px;
+    padding-right: 20px;
     h2 {
         font-size: 30px;
         font-weight: 700;
@@ -47,6 +48,44 @@
             line-height: 20px;
             font-weight: 700;
             font-style: italic;
+        }
+    }
+}
+
+@media(max-width: 1230px) {
+    .get {
+        &__wrapper {
+            padding: 20px 60px;
+        }
+    }
+    
+    .get-block {
+        padding: 30px 0 14px 0;
+        h3 {
+            &:before {
+                margin-bottom: 8px;
+            }
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            max-width: 890px;
+            font-size: 13px;
+            line-height: 19px;
+            margin-bottom: 16px;
+            span {
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media(max-width: 600px) {
+    .get {
+        padding-left: 0px;
+        padding-right: 0px;
+        &__wrapper {
+            border-radius: 0px;
+            padding: 0px 20px;
         }
     }
 }

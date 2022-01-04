@@ -1,9 +1,7 @@
 .advantages {
+    position: relative;
     z-index: 1;
-    position: absolute;
-    top: 1847px;
     width: 100%;
-    min-height: 566px;
     background-color: #fff;
     h2 {
         top: -67px;
@@ -42,5 +40,24 @@
     p {
         font-size: 12px;
         line-height: 20px;
+    }
+}
+
+@media (max-width: 965px) {
+    .advantages {
+        &__wrapper {
+            min-width: 2360px;
+            display: flex;
+        }
+        &__scroll {
+            &::-webkit-scrollbar {
+                display: none; /*Chrome, Safari, Opera*/
+            }
+            -ms-overflow-style: none;  /* IE, Edge */
+            scrollbar-width: none;  /* Firefox */
+            overflow: hidden;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
     }
 }

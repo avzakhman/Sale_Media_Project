@@ -1,6 +1,5 @@
 .order {
-    position: absolute;
-    top: 1728px;
+    margin-top: 80px;
     width: 100%;
     h2 {
         font-size: 30px;
@@ -16,7 +15,7 @@
 }
 .order-block {
     padding: 30px;
-    width: 380px;
+    max-width: 380px;
     height: 184px;
     background-color: #fff;
     border-radius: 20px;
@@ -46,6 +45,25 @@
         span {
             font-weight: 700;
             font-style: italic;
+        }
+    }
+}
+
+@media (max-width: 1230px) {
+    .order {
+        &__wrapper {
+            min-width: 2360px;
+            display: flex;
+        }
+        &__scroll {
+            &::-webkit-scrollbar {
+                display: none; /*Chrome, Safari, Opera*/
+            }
+            -ms-overflow-style: none;  /* IE, Edge */
+            scrollbar-width: none;  /* Firefox */
+            overflow: hidden;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
         }
     }
 }

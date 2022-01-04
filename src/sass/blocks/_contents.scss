@@ -1,19 +1,13 @@
 .contents {
     width: 100%;
     position: relative;
-    height: 1846px;
     &__bg {
-        display: block;
-        position: absolute;
-        object-fit: cover;
-        width: 90%;
-        height: 100%;
-        margin-top: 100px;
+        margin-top: 196px;
+        background: url(../img/bg_02.svg) 0 -200px / cover no-repeat;
     }
     &__no-bg {
         width: 100%;
         position: relative;
-        height: 3585px;
         background-color: #F4F4F4;
     }
 }

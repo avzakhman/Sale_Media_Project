@@ -1,7 +1,9 @@
 .extras {
     position: absolute;
-    top: -89px;
+    top: -285px;
     z-index: 2;
+    max-width: 100%;
+    overflow: hidden;
     &__wrapper {
         display: flex;
         background-color: #fff;
@@ -23,7 +25,7 @@
     padding: 30px;
     display: block;
     width: 294px;
-    height: 162px;
+    min-height: 162px;
     border-right: 1px solid #E1E1E1;
     border-bottom: 6px solid $accent;
     h3 {
@@ -38,5 +40,33 @@
     }
     &:last-child {
         border-right: none;
+    }
+}
+@media(max-width: 1230px) {
+    .extras {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 965px) {
+    .extras {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        &__wrapper {
+            border-radius: 0px;
+            min-width: 1180px;
+            display: flex;
+        }
+        &__scroll {
+            &::-webkit-scrollbar {
+                display: none; /*Chrome, Safari, Opera*/
+            }
+            -ms-overflow-style: none;  /* IE, Edge */
+            scrollbar-width: none;  /* Firefox */
+            overflow: hidden;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
     }
 }
