@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -74,18 +75,78 @@
     <main class="main-bg">
         <section class="main">
             <img src="img/bg.svg" alt="background">
-            <div class="container">
-                <div class="slide-block">
-                    <h1>Создаем cайты,<br>приносящие прибыль</h1>
-                    <ul>
-                        <li>Проанализируем потребности вашей <span>целевой аудитории</span></li>
-                        <li>Изучим <span> предложения </span>ваших конкурентов</li>
-                        <li>Учтём особенности построения <span>бизнес-процессов</span> вашей компании</li>
-                    </ul>
-                    <button>Заказать сайт</button>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slide-container">
+                            <h1>Создаем cайты,<br>приносящие прибыль</h1>
+                            <ul>
+                                <li>Проанализируем потребности вашей <span>целевой аудитории</span></li>
+                                <li>Изучим <span> предложения </span>ваших конкурентов</li>
+                                <li>Учтём особенности построения <span>бизнес-процессов</span> вашей компании</li>
+                            </ul>
+                            <button>Заказать сайт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slide-container">
+                            <h1>Создаем cайты,<br>приносящие прибыль</h1>
+                            <ul>
+                                <li>Проанализируем потребности вашей <span>целевой аудитории</span></li>
+                                <li>Изучим <span> предложения </span>ваших конкурентов</li>
+                                <li>Учтём особенности построения <span>бизнес-процессов</span> вашей компании</li>
+                            </ul>
+                            <button>Заказать сайт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slide-container">
+                            <h1>Создаем cайты,<br>приносящие прибыль</h1>
+                            <ul>
+                                <li>Проанализируем потребности вашей <span>целевой аудитории</span></li>
+                                <li>Изучим <span> предложения </span>ваших конкурентов</li>
+                                <li>Учтём особенности построения <span>бизнес-процессов</span> вашей компании</li>
+                            </ul>
+                            <button>Заказать сайт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slide-container">
+                            <h1>Создаем cайты,<br>приносящие прибыль</h1>
+                            <ul>
+                                <li>Проанализируем потребности вашей <span>целевой аудитории</span></li>
+                                <li>Изучим <span> предложения </span>ваших конкурентов</li>
+                                <li>Учтём особенности построения <span>бизнес-процессов</span> вашей компании</li>
+                            </ul>
+                            <button>Заказать сайт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slide-container">
+                            <h1>Создаем cайты,<br>приносящие прибыль</h1>
+                            <ul>
+                                <li>Проанализируем потребности вашей <span>целевой аудитории</span></li>
+                                <li>Изучим <span> предложения </span>ваших конкурентов</li>
+                                <li>Учтём особенности построения <span>бизнес-процессов</span> вашей компании</li>
+                            </ul>
+                            <button>Заказать сайт</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"><img src="icons/left.svg" alt=""></div>
+            <div class="swiper-button-next"><img src="icons/right.svg" alt=""></div>
         </section>
+
         <section class="contents contents__bg">
             <div class="container">
                 <article class="extras">
@@ -173,7 +234,7 @@
                     <div class="all-services">
                         <h3>Заголовок про <span> кучу сервисов</span></h3>
                         <p><span>Но мы знаем, что раз вы здесь, то вам уже нужен сайт. </span> Поэтому не теряйте время! Пока вы раздумываете, ваши клиенты уходят к конкурентам.</p>
-                        <button>все услуги</button>
+                        <button class="contactModalTrigger">все услуги</button>
                     </div>
                 </article>
                 <article class="facts">
@@ -265,19 +326,19 @@
                             <div class="portfolio-block">
                                 <img src="img/portfolio/02.png" alt="01">
                                 <h3>Nunc ullamcorper, justo ac pretium </h3>
-                                <button>смотреть</button>
+                                <button class="portfolioModalTrigger">смотреть</button>
                             </div>
                             <div class="portfolio-block">
                                 <img src="img/portfolio/01.png" alt="02">
                                 <h3>Nunc justo ac pretium </h3>
-                                <button>смотреть</button>
+                                <button class="portfolioModalTrigger">смотреть</button>
                             </div>
                         </div>
                     </div>
                     <div class="all-services">
                         <h3>Заголовок про <span> запрос портфолио</span></h3>
                         <p><span>Но мы знаем, что раз вы здесь, то вам уже нужен сайт. </span> Поэтому не теряйте время!<br> Пока вы раздумываете, ваши клиенты уходят к конкурентам.</p>
-                        <button button_long>запросить портфолио</button>
+                        <button class="portfolioModalTrigger">запросить портфолио</button>
                     </div>
                 </article>
                 <article class="order">
@@ -384,7 +445,7 @@
             <div class="container">
                 <div class="cities__wrapper">
                     <div class="cities__menu">
-                        <button>Москва</button>
+                        <button class="cities__menu_active">Москва</button>
                         <button>Рига</button>
                     </div>
                     <article class="city-block">
@@ -438,7 +499,7 @@
                         <img src="icons/socials/viber.svg" alt="viber">
                         <img src="icons/socials/whatsapp.svg" alt="whatsapp">
                     </div>
-                    <button>написать</button>
+                    <button class="contactModalTrigger">написать</button>
                 </div>
             </div>
         </section>
@@ -481,16 +542,48 @@
                     <h3>Почему не стоит откладывать<span> создание сайта</span>?</h3>
                     <p><span>Но мы знаем, что раз вы здесь, то вам уже нужен сайт. </span> Поэтому не теряйте время! Пока вы раздумываете, ваши клиенты уходят к конкурентам.</p>
                 </div>
-                <button class="banner__order">заказать сайт</button>
+                <button class="banner__order contactModalTrigger">заказать сайт</button>
                 <div class="banner__socials">
                     <button class="banner__socials-button banner__socials_green"> <img src="icons/socials/whatsapp.svg" alt="whatsapp"> whatsapp </button>
                     <button class="banner__socials-button banner__socials_red">позвонить</button>
                 </div>
             </div>
             <button class="banner__close">
-                <img src="icons/close.svg" alt="close">
+                <span></span>
+                <span></span>
             </button>
         </div>
     </div>
+    <div class="write-modal write-modal__hidden">
+        <div class="write-modal__wrapper">
+            <h2>Напишите нам и мы <span>обязательно</span> поможем вам!</h2>
+            <div class="write-modal__socials">
+                <a href="#"> <img src="icons/socials/telegram.svg" alt="tg">       <p>Написать в <span>Telegram</span></p></a>
+                <a href="#"> <img src="icons/socials/whatsapp.svg" alt="whatsapp"> <p>Написать в <span>Whatsapp</span></p></a>
+                <a href="#"> <img src="icons/socials/viber.svg" alt="viber">       <p>Написать в <span>Viber</span></p></a>
+            </div>
+            <button class="write-modal__close">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="portfolio-modal portfolio-modal__hidden">
+        <div class="portfolio-modal__wrapper">
+            <h2><span>Куда</span> отправить портфолио?</h2>
+            <div class="portfolio-modal__socials">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <button class="portfolio-modal__close">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

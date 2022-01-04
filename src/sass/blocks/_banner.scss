@@ -70,7 +70,27 @@
         height: 22px;
         right: -89px;
         top: 40px;
-        background-color: #fff;
+        background-color: #E1E1E1;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        span {
+            position: absolute;
+            width: 2px;
+            border-radius: 100%;
+            background-color: #fff;
+            height: 14px;
+            transform: rotate(45deg);
+            &:last-child {
+                transform: rotate(-45deg);
+            }
+        }
+        &:hover {
+            span {
+                background-color: $accent;
+            }
+        }
     }
     &__socials {
         width: 100%;
