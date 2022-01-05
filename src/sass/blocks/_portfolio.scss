@@ -118,3 +118,40 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .portfolio {
+        margin-top: 40px;
+        &__wrapper {
+            min-width: 611px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    .portfolio-block {
+        border-radius: 20px;
+        img {
+            border-radius: 20px;
+        }
+        &:first-child {
+            margin-left: 20px;
+        }
+        &:last-child {
+            margin-right: 20px;
+        }
+        width: 278px;
+        height: 306px;
+        h3 {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        button {
+            margin-top: 20px;
+        }
+    }
+}

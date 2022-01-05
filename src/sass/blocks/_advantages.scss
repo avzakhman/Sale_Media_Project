@@ -61,3 +61,43 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .advantages {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        background-color: #fff;
+        h2 {
+            top: 40px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        &__wrapper {
+            height: 183px;
+            margin-top: 60px;
+            padding: 0px 0;
+        }
+    }
+    .advantage-block {
+        margin: 30px 0;
+        margin-left: 0px;
+        width: 270px;
+        &:first-child {
+            margin-left: 60px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            &::before {
+                width: 30px;
+                height: 30px;
+                top: 4px;
+            }
+        }
+        p {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+}

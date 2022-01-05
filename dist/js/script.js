@@ -11,10 +11,12 @@ const swiper = new Swiper('.main', {
 //закрытие баннера
 
 const banner = document.querySelector('.banner'),
-      bannerClose = banner.querySelector('.banner__close');
+      bannerClose = banner.querySelector('.banner__close'),
+      footer = document.querySelector('.footer');
       
 bannerClose.addEventListener('click', ()=> {
     banner.style.display = 'none';
+    footer.classList.add('footer__banner-closed');
 });
 
 
@@ -153,8 +155,12 @@ function showOptions(){
 
 
 const openmobmenu = document.querySelector('.open-mobmenu'),
+      body = document.querySelector('body'),
       mobmenu = document.querySelector('.mobile-menu');
+
 
 openmobmenu.addEventListener('click', ()=> {
     mobmenu.classList.toggle('mobile-menu__opened');
+    openmobmenu.classList.toggle('open-mobmenu__opened');
+    body.classList.toggle('scroll-disabled');
 });

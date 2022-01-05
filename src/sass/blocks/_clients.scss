@@ -52,3 +52,20 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .clients {
+        margin-top: 40px;
+        h2 {
+            font-size: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        &__wrapper {
+            border-radius: 0px;
+        }
+        &__scroll {
+            border-radius: 0px;
+        }
+    }
+}

@@ -12,12 +12,17 @@
     max-width: 1180px;
     margin: 0 auto;
 }
+.scroll-disabled {
+    height: 100%; 
+    overflow: hidden;
+}
 .main-bg {
     background-color: #F4F4F4;
 }
 
 @import 'blocks/header';
 @import 'blocks/main';
+@import 'blocks/mobile-main';
 @import 'blocks/contents';
 @import 'blocks/extras';
 @import 'blocks/services';

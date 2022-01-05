@@ -148,3 +148,48 @@
         }
     }
 }
+
+@media(max-width: 600px) {
+    .portfolio-modal {
+        &__wrapper {
+            width: 360px;
+            height: 303px;
+            h2 {
+                font-size: 18px;
+                margin: 30px 0px 0 20px;
+                margin-bottom: 30px;
+            }
+        }
+        &__socials {
+            button {
+                width: 100px;
+                height: 40px;
+                border-radius: 15px;
+                padding-left: 42px;
+                font-size: 11px;
+                &:focus {
+                    &::after {
+                        left: 42px;
+                    }
+                }
+            }
+        }
+        form {
+            padding: 20px 20px;
+            width: 100%;
+            label {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            input {
+                font-size: 11px;
+                width: 100%;
+            }
+            button {
+                margin-top: 20px;
+                width: 100%;
+            }
+        }
+    }
+
+}

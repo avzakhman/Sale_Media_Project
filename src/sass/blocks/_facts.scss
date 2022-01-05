@@ -57,3 +57,26 @@
         width: 300px;
     }
 }
+
+@media (max-width: 600px) {
+    .facts {
+        margin-bottom: 10px;
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .fact-block {
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 12px;
+            line-height: 18px;
+            span {
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+        margin-bottom: -30px;
+    }
+}

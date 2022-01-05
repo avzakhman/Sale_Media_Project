@@ -79,4 +79,32 @@
             align-items: flex-start;
         }
     }
+    .questions {
+        max-width: 100%;
+        &__wrapper {
+            h2 {
+                font-size: 18px;
+                line-height: 22px;
+            }
+            p {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            button {
+                width: 180px;
+                height: 39px;
+                border: none;
+                border-radius: 15px;
+                font-size: 12px;
+            }
+        }
+        &__socials {
+            width: 132px;
+            height: 32px;
+            img {
+                height: 32px;
+                width: 32px;
+            }
+        }
+    }
 }

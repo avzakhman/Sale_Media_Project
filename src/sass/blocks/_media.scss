@@ -4,3 +4,15 @@
         padding-right: 20px;
     }
 }
+@media(max-width: 600px) {
+    .slide-block, .advantages h2, .advantages__wrapper, .order, .portfolio, .services, .clients, .job, .footer__wrapper{
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+@media(max-width: 360px) {
+    .banner{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

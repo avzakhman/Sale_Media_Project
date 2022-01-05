@@ -88,6 +88,7 @@
 
 @media(max-width: 800px) {
     .cities {
+        margin-top: 40px;
         background-color: unset;
         margin-bottom: 20px;
         border-radius: 20px;
@@ -138,6 +139,25 @@
             div {
                 margin-bottom: 0px;
             }
+            h3 {
+                margin-top: 20px;
+                font-size: 11px;
+                margin-bottom: 7px;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    .city-block__hidden {
+        display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    .city-block {
+        address {
+            padding: 0 20px 20px 20px;
             h3 {
                 margin-top: 20px;
                 font-size: 11px;

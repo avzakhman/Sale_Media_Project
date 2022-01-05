@@ -11,3 +11,12 @@
         background-color: #F4F4F4;
     }
 }
+
+@media (max-width: 600px) {
+    .contents {
+        &__bg {
+            margin-top: 140px;
+        }
+    }
+    
+}

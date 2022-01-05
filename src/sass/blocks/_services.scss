@@ -17,9 +17,11 @@
 }
 
 .service-block {
+    &_emphasise {
+        border: 2px solid $accent;
+    }
     position: relative;
     max-width: 380px;
-    min-height: 505px;
     background-color: #fff;
     overflow: hidden;
     border-radius: 20px;
@@ -126,6 +128,9 @@
             font-weight: 700;
         }
     }
+    .button__order {
+        width: 193px;
+    }
     button {
         min-width: 160px;
         height: 40px;
@@ -138,6 +143,7 @@
         font-weight: 700;
         color: white;
         padding: 0 18px;
+        white-space: nowrap;
         &:hover {
             background-color: $hover;
             color: white;
@@ -222,6 +228,76 @@
         }
         button {
             width: 100%;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .services {
+        margin-bottom: 30px;
+        h2 {
+            margin-left: 20px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        &__wrapper {
+        }
+    }
+    .service-block {
+        max-width: 278px;
+        height: 388px;
+        &:first-child {
+            margin-left: 20px;
+        }
+        img {
+            height: 173px;
+        }
+        &__text {
+            padding: 20px;
+        }
+        h3 {
+            height: 27px;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        button {
+            margin-top: -10px;
+        }
+        p {
+            font-size: 12px;
+            line-height: auto;
+        }
+        &__special {
+            padding: 8px 15px;
+            width: 202px;
+            font-size: 11px;
+        }
+        &__offer {
+            font-size: 11px;
+            padding: 8px 9px;
+            top: 160px;
+            margin-left: 20px;
+            &_discount {
+                margin-left: 80px;
+            }
+        }
+    }
+    .all-services {
+        padding: 20px;
+        height: 173px;
+        border-radius: 0px;
+        h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 12px;
+        }
+        button {
+            width: 160px;
+            margin-bottom: 10px;
+        }
+        &__portfolio {
+            height: 183px;
         }
     }
 }

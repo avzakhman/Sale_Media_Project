@@ -3,6 +3,9 @@
     background-color: black;
     margin-bottom: 110px;
     overflow: hidden;
+    &__banner-closed {
+        margin-bottom: 0px;
+    }
     &__parts {
         width: 1600px;
         display: flex;
@@ -144,7 +147,19 @@
 }
 @media(max-width: 600px) {
     .footer {
-        margin-bottom: 60px;
+        padding: 20px;
+        &__about {
+            width: 200px;
+            img {
+                width: 128px;
+                height: 26px;
+            }
+            p {
+                display: none;
+            }
+    
+        }
+        margin-bottom: 0px;
         &__parts {
             flex-direction: column;
         }

@@ -67,3 +67,37 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .order {
+        margin-top: 40px;
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        &__wrapper {
+            min-width: 1786px;
+        }
+    }
+    .order-block {
+        &:first-child {
+            margin-left: 20px;
+        }
+        &:last-child {
+            margin-right: 20px;
+        }
+        padding: 20px;
+        max-width: 278px;
+        height: 167px;
+        margin-bottom: 0px;
+        h3 {
+            margin-right: 17px;
+            font-size: 48px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+}

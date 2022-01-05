@@ -70,3 +70,31 @@
         }
     }
 }
+@media (max-width: 600px) {
+    .extras {
+        top: -210px;
+        h2 {
+            display: none;
+        }
+        &__wrapper {
+            min-width: 1028px;
+        }
+
+    }
+    .extra-block {
+        width: 257px;
+        min-height: 151px;
+        h3 {
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        &:last-child {
+            border-right: none;
+        }
+    }
+}
