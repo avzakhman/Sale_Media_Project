@@ -85,3 +85,76 @@ portfolioModalTriggers.forEach((trigger) => {
         portfolioModal.classList.remove('portfolio-modal__hidden');
     });
 })
+
+//мобильное меню
+
+const menubuttons = document.querySelectorAll('.mobile-menu__point'),
+      openmenupoint = document.querySelectorAll('.mobile-menu__point_open'),
+      subpointsOpen = document.querySelector('.mobile-menu__point_open'),
+      subpointsClose = document.querySelectorAll('.mobile-menu__point_close'),
+      subpoints = document.querySelectorAll('.mobile-menu__subpoint');
+let buttonId;
+let closeId;
+let submenuId;
+
+openmenupoint.forEach((button, id)=> {
+      button.addEventListener('click', ()=> {
+          buttonId = id;
+          console.log(buttonId);
+          hideOptions();
+      })
+});
+subpointsClose.forEach((button, id)=> {
+    button.addEventListener('click', ()=> {
+        closeId = id;
+        showOptions();
+    })
+});
+
+subpoints.forEach((subpoint, id) => {
+    subpoint.addEventListener('click', ()=> {
+        submenuId = id;
+        subpoints.forEach((subpoint, id) => {
+            if (id == submenuId) {
+                subpoint.classList.toggle('mobile-menu__subpoint_active');
+            } else {
+                subpoint.classList.remove('mobile-menu__subpoint_active');
+            }
+        });
+    });
+});
+
+
+
+function hideOptions(){
+    menubuttons.forEach((button, id)=> {
+        if (id == buttonId && button.classList.contains('hascontents')) {
+            button.classList.add('mobile-menu__point_active');
+            menubuttons.forEach((button, id)=> {
+                if (!button.classList.contains('hascontents')){
+                    button.style.height ='0px';
+                    button.style.borderBottom ='none';
+                }
+          });
+        }
+  });
+}
+function showOptions(){
+    menubuttons.forEach((button, id)=> {
+        if (id == closeId) {
+            button.classList.remove('mobile-menu__point_active');
+        } else {
+            button.style.height ='unset';
+            button.style.borderBottom ='1px solid #E1E1E1';
+        }
+  });
+}
+
+
+
+const openmobmenu = document.querySelector('.open-mobmenu'),
+      mobmenu = document.querySelector('.mobile-menu');
+
+openmobmenu.addEventListener('click', ()=> {
+    mobmenu.classList.toggle('mobile-menu__opened');
+});

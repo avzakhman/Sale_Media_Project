@@ -132,7 +132,6 @@
 }
 @media(max-width: 860px) {
     .footer {
-        margin-bottom: -60px;
         &__parts {
             justify-content: space-around;
         }
@@ -145,6 +144,7 @@
 }
 @media(max-width: 600px) {
     .footer {
+        margin-bottom: 60px;
         &__parts {
             flex-direction: column;
         }
