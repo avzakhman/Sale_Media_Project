@@ -30,6 +30,14 @@
         </div>
     </footer>
 
+    <div class="mobile-banner">
+        <button>
+            <img src="icons/socials/whatsapp.svg" alt="whatsapp">
+            whatsapp
+        </button>
+        <button>позвонить</button>
+    </div>
+
     <div class="portfolio-modal portfolio-modal__hidden">
         <div class="portfolio-modal__wrapper">
             <h2><span>Куда</span> отправить портфолио?</h2>
