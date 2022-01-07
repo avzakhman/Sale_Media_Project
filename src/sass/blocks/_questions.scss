@@ -48,9 +48,10 @@
         justify-content: space-between;
         width: 132px;
         height: 32px;
-        img {
+        svg {
             height: 32px;
             width: 32px;
+            viewBox: 0 0 132px 132px;
         }
     }
 }
@@ -101,7 +102,8 @@
         &__socials {
             width: 132px;
             height: 32px;
-            img {
+            svg {
+                viewBox: 0 0 132px 132px;
                 height: 32px;
                 width: 32px;
             }

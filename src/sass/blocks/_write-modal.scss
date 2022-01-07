@@ -83,16 +83,15 @@
             text-decoration: none;
             margin: 5px;
             display: flex;
-            justify-content: space-around;
             align-items: center;
             width: 236px;
             height: 48px;
             background-color: white;
             border-radius: 15px;
-            img {
-                padding: 0 15px;
-            }
+            padding-left: 10px;
             p {
+                left: 80px;
+                position: absolute;
                 width: 100%;
                 color: black;
                 font-size: 14px;

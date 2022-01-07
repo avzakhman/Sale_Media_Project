@@ -25,7 +25,9 @@
         &:last-child {
             background-color: #CC4391;
         }
-        img {
+        svg {
+            padding-right: 1px;
+            padding-bottom: 1px;
             position: absolute;
             width: 22px;
             height: 22px;

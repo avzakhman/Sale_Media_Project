@@ -29,7 +29,7 @@
     }
     &__about {
         width: 200px;
-        img {
+        svg {
             margin-top: -3px;
         }
         p {
@@ -150,9 +150,10 @@
         padding: 20px;
         &__about {
             width: 200px;
-            img {
+            svg {
                 width: 128px;
                 height: 26px;
+                viewBox: 0 0 128px 26px;
             }
             p {
                 display: none;

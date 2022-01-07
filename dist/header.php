@@ -95,7 +95,9 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <img src="icons/logo-black.svg" alt="sale media logo">
+                    <svg width="128" height="26"> 
+                        <use xlink:href="icons/icons.svg#logo-black"></use>
+                    </svg>
                     <p>Делаем сайты на 1С Битрикс</p>
                 </div>
                 <nav class="header__menu">
@@ -237,7 +239,7 @@
                     <div class="header__links header__links_0">
                         <div class="header__link">
                             <a href="#">ещё</a>
-                            <img src="icons/more-arr.svg" alt="more">
+                            <svg height="3" width="6"><use xlink:href="icons/icons.svg#more-arr"></use></svg>
                         </div>
                         <ul class="header__submenu" style="overflow: hidden;">
                             <hr class="subpoint_1">
@@ -262,7 +264,11 @@
                 <a href="tel:+74951288976" class="header__phone">+7 495 128-8976</a>
                 <div class="header__mobile-buttons">
                     <button class="open-mobmenu"><span></span> <span></span> <span></span></button>
-                    <button><img src="icons/phone.svg" alt="phone"></button>
+                    <button>
+                        <svg height="22" width="22">
+                            <use xlink:href="icons/icons.svg#phone"></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>

@@ -63,7 +63,7 @@
         padding-top: 20px;
         display: flex;
         flex-direction: column;
-        img {
+        svg {
             width: 128px;
             height: 26px;
         }
@@ -163,7 +163,7 @@
             &:hover {
                 border-bottom: 1px solid $accent;
                 color: $accent;
-                img {
+                svg {
                     transform: rotate(-180px);
                 }
                 .sub {
@@ -208,7 +208,7 @@
                 border-top: 3px solid rgba($accent, 1);
             }
         }
-        img {
+        svg {
             width: 6px;
             height: 4px;
             margin-left: -8px;
@@ -217,7 +217,7 @@
         }
         &:hover {
             color: $accent;
-            img {
+            svg {
                 transform: rotate(-180deg);
             }
         }
@@ -236,9 +236,8 @@
         &__logo {
             height: 71px;
             padding-left: 20px;
-            img {
-                width: 100px;
-                height: 20px;
+            svg {
+                viewBox: 0 0 230px 50px
             }
         }
         &__phone {
@@ -249,12 +248,12 @@
                 padding: 0 10px;
                 font-size: 11px;
             }
-            img {
+            svg {
                 margin-left: -3px;
                 margin-top: 33px;
             }
             &:hover {
-                img {
+                svg {
                     transform: rotate(-180deg);
                 }
             }

@@ -2,7 +2,7 @@
     include 'header.php'
 ?>
 
-    <main class="main-bg">
+<main class="main-bg">
         <section class="main">
             <img src="img/bg.svg" alt="background">
             <div class="swiper-wrapper">
@@ -73,8 +73,12 @@
                 </div>
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"><img src="icons/left.svg" alt=""></div>
-            <div class="swiper-button-next"><img src="icons/right.svg" alt=""></div>
+            <svg  width="48" height="48" class="swiper-button-prev">
+                <use xlink:href="icons/icons.svg#left"></use>
+            </svg>
+            <svg  width="48" height="48" class="swiper-button-next">
+                <use xlink:href="icons/icons.svg#right"></use>
+            </svg>
         </section>
 
         <section class="contents contents__bg">
@@ -107,7 +111,7 @@
                     <div class="services__scroll">
                         <div class="services__wrapper">
                             <div class="service-block">
-                                <img src="img/services/01.png" alt="01">
+                                <img srcset="img/services/01-360px.png 600w, img/services/01.png 1440w" src="img/services/01.png" alt="01">
                                 <span class="service-block__offer">АКЦИЯ</span>
                                 <div class="service-block__text">
                                     <h3>Лэндинг страницы</h3>
@@ -116,7 +120,7 @@
                                 </div>
                             </div>
                             <div class="service-block service-block_emphasise">
-                                <img src="img/services/02.png" alt="02">
+                                <img srcset="img/services/02-360px.png 600w, img/services/02.png 1440w" src="img/services/02.png" alt="02">
                                 <span class="service-block__special">Оптимальное предложение!</span>
                                 <span class="service-block__offer">-25%</span>
                                 <span class="service-block__offer service-block__offer_discount">Цена от 138 000 ₽</span>
@@ -127,7 +131,7 @@
                                 </div>
                             </div>
                             <div class="service-block">
-                                <img src="img/services/03.png" alt="03">
+                                <img srcset="img/services/03-360px.png 600w, img/services/03.png 1440w" src="img/services/03.png" alt="03">
                                 <div class="service-block__text">
                                     <h3>Маркетинг в социальных сетях</h3>
                                     <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. </p>
@@ -135,7 +139,7 @@
                                 </div>
                             </div>
                             <div class="service-block">
-                                <img src="img/services/04.png" alt="04">
+                                <img srcset="img/services/04-360px.png 600w, img/services/04.png 1440w" src="img/services/04.png" alt="04">
                                 <div class="service-block__text">
                                     <h3>Таргетированная реклама</h3>
                                     <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. </p>
@@ -143,7 +147,7 @@
                                 </div>
                             </div>
                             <div class="service-block">
-                                <img src="img/services/05.png" alt="05">
+                                <img srcset="img/services/05-360px.png 600w, img/services/05.png 1440w" src="img/services/05.png" alt="05">
                                 <div class="service-block__text">
                                     <h3>Интернет магазин</h3>
                                     <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. </p>
@@ -151,7 +155,7 @@
                                 </div>
                             </div>
                             <div class="service-block">
-                                <img src="img/services/06.png" alt="06">
+                                <img srcset="img/services/06-360px.png 600w, img/services/06.png 1440w" src="img/services/06.png" alt="06">
                                 <span class="service-block__offer">АКЦИЯ</span>
                                 <div class="service-block__text">
                                     <h3>Мобильное приложение</h3>
@@ -226,25 +230,39 @@
                     <div class="clients__scroll">
                         <div class="clients__wrapper">
                             <div class="client-block">
-                                <img src="img/clients/mogov.svg" alt="mogov">
+                                <svg width = "113" height = "70">
+                                    <use xlink:href="img/clients/mogov.svg#mogov"></use>
+                                </svg>
                             </div>
                             <div class="client-block">
-                                <img src="img/clients/gazprom.svg" alt="gazprom">
+                                <svg width = "113" height = "70">
+                                    <use xlink:href="img/clients/gazprom.svg#gazprom"></use>
+                                </svg>
                             </div>
                             <div class="client-block">
-                                <img src="img/clients/Union.svg" alt="union">
+                                <svg width = "113" height = "70">
+                                    <use xlink:href="img/clients/Union.svg#union"></use>
+                                </svg>
                             </div>
                             <div class="client-block">
-                                <img src="img/clients/rospatriot.svg" alt="rospatriot">
+                                <svg width = "113" height = "70">
+                                    <use xlink:href="img/clients/rospatriot.svg#rospatriot"></use>
+                                </svg>
                             </div>
                             <div class="client-block">
-                                <img src="img/clients/Onf-logo.svg" alt="onf">
+                                <svg width = "113" height = "70">
+                                    <use xlink:href="img/clients/Onf-logo.svg#onf"></use>
+                                </svg>
                             </div>
                             <div class="client-block">
-                                <img src="img/clients/obi.svg" alt="obi">
+                                <svg width = "113" height = "70">
+                                    <use xlink:href="img/clients/obi.svg#obi"></use>
+                                </svg>
                             </div>
                             <div class="client-block">
-                                <img src="img/clients/doshirak.svg" alt="doshirak">
+                                <svg width = "113" height = "70">
+                                    <use xlink:href="img/clients/doshirak.svg#doshirak"></use>
+                                </svg>
                             </div>
                         </div>
                     </div>
@@ -254,12 +272,12 @@
                     <div class="portfolio__scroll">
                         <div class="portfolio__wrapper">
                             <div class="portfolio-block">
-                                <img src="img/portfolio/02.png" alt="01">
+                                <img srcset="img/portfolio/02-360px.png 600w, img/portfolio/02.png 1440w" src="img/portfolio/02.png" alt="02">
                                 <h3>Nunc ullamcorper, justo ac pretium </h3>
                                 <button class="portfolioModalTrigger">смотреть</button>
                             </div>
                             <div class="portfolio-block">
-                                <img src="img/portfolio/01.png" alt="02">
+                                <img srcset="img/portfolio/01-360px.png 600w, img/portfolio/01.png 1440w" src="img/portfolio/01.png" alt="01">
                                 <h3>Nunc justo ac pretium </h3>
                                 <button class="portfolioModalTrigger">смотреть</button>
                             </div>
@@ -425,45 +443,21 @@
                     <h2>Остались вопросы?</h2>
                     <p><span>Напишите нам</span>, и мы вам обязательно поможем!</p>
                     <div class="questions__socials">
-                        <img src="icons/socials/telegram.svg" alt="tg">
-                        <img src="icons/socials/viber.svg" alt="viber">
-                        <img src="icons/socials/whatsapp.svg" alt="whatsapp">
+                        <svg width = "32" height = "32">
+                            <use xlink:href="icons/socials/socials.svg#telegram"></use>
+                        </svg>
+                        <svg width = "32" height = "32">
+                            <use xlink:href="icons/socials/viber.svg#viber"></use>
+                        </svg>
+                        <svg width = "32" height = "32" transform = "scale(1.33)">
+                            <use xlink:href="icons/socials/whatsapp.svg#whatsapp"></use>
+                        </svg>
                     </div>
                     <button class="contactModalTrigger">написать</button>
                 </div>
             </div>
         </section>
     </main>
-    
-    <div class="banner">
-        <div class="container">
-            <div class="banner__wrapper">
-                <div class="banner__parts">
-                    <h3>Почему не стоит откладывать<span> создание сайта</span>?</h3>
-                    <p><span>Но мы знаем, что раз вы здесь, то вам уже нужен сайт. </span> Поэтому не теряйте время! Пока вы раздумываете, ваши клиенты уходят к конкурентам.</p>
-                </div>
-                <button class="banner__order contactModalTrigger">заказать сайт</button>
-            </div>
-            <button class="banner__close">
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </div>
-    <div class="write-modal write-modal__hidden">
-        <div class="write-modal__wrapper">
-            <h2>Напишите нам и мы <span>обязательно</span> поможем вам!</h2>
-            <div class="write-modal__socials">
-                <a href="#"> <img src="icons/socials/telegram.svg" alt="tg">       <p>Написать в <span>Telegram</span></p></a>
-                <a href="#"> <img src="icons/socials/whatsapp.svg" alt="whatsapp"> <p>Написать в <span>Whatsapp</span></p></a>
-                <a href="#"> <img src="icons/socials/viber.svg" alt="viber">       <p>Написать в <span>Viber</span></p></a>
-            </div>
-            <button class="write-modal__close">
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </div>
 
 <?php 
     include 'footer.php'

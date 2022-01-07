@@ -18,10 +18,12 @@
 .swiper-button-next, .swiper-button-prev {
     margin: 16px;
     top: 37%;
+    height: 48px;
+    width: 48px;
     background-color: #fff;
     border-radius: 100%;
     background-image: unset;
-    img {
+    svg {
         height: 48px;
         width: 48px;
     }
