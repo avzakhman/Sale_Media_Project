@@ -42,7 +42,6 @@ function ChangeButtons() {
         }
     });
     cityBlocks.forEach((block, blockId) => {
-        console.log('ss');
         if (blockId == cityId) {
             block.classList.remove('city-block__hidden');
         }
@@ -94,7 +93,8 @@ const menubuttons = document.querySelectorAll('.mobile-menu__point'),
       openmenupoint = document.querySelectorAll('.mobile-menu__point_open'),
       subpointsOpen = document.querySelector('.mobile-menu__point_open'),
       subpointsClose = document.querySelectorAll('.mobile-menu__point_close'),
-      subpoints = document.querySelectorAll('.mobile-menu__subpoint');
+      subpoints = document.querySelectorAll('.mobile-menu__subpoint'),
+      hascontentsLine = document.querySelector('.hascontents_line');
 let buttonId;
 let closeId;
 let submenuId;
@@ -102,13 +102,13 @@ let submenuId;
 openmenupoint.forEach((button, id)=> {
       button.addEventListener('click', ()=> {
           buttonId = id;
-          console.log(buttonId);
           hideOptions();
       })
 });
 subpointsClose.forEach((button, id)=> {
     button.addEventListener('click', ()=> {
         closeId = id;
+        hascontentsLine.classList.remove('hascontents_accent');
         showOptions();
     })
 });
@@ -132,6 +132,7 @@ function hideOptions(){
     menubuttons.forEach((button, id)=> {
         if (id == buttonId && button.classList.contains('hascontents')) {
             button.classList.add('mobile-menu__point_active');
+            hascontentsLine.classList.add('hascontents_accent');
             menubuttons.forEach((button, id)=> {
                 if (!button.classList.contains('hascontents')){
                     button.style.height ='0px';

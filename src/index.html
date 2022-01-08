@@ -18,9 +18,10 @@
             </p>
         </div>
         <div class="mobile-menu__point hascontents">
+            <div class="hascontents__arr"><span></span><span></span></div>
             <p>
                 <button class="mobile-menu__point_close"> <span></span><span></span></button>
-                <span class="mobile-menu__point_open">корпоративные сайты</span>
+                <span class="mobile-menu__point_open hascontents_line">корпоративные сайты</span>
             </p>
             <div class="mobile-menu__subpoints">
                 <div class="mobile-menu__subpoint">

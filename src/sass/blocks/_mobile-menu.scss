@@ -9,7 +9,6 @@
     top: -363px;
     &__opened {
         top: 72px;
-
     }
     &__point {
         position: relative;
@@ -21,6 +20,7 @@
         overflow: hidden;
         border-bottom: 1px solid #E1E1E1;
         p {
+            margin-left: 23px;
             font-size: 12px;
             text-transform: uppercase;
             font-weight: 700;
@@ -57,17 +57,22 @@
             height: unset;
             min-height: 129px;
             p {
+                margin-left: 95px;
                 color: #fff;
 
             }
             button {
                 transform: rotate(90deg);
-                margin-left: 10px;
+                margin-left: 0px;
                 height: 22px;
             }
             .mobile-menu__subpoints {
                 display: flex;
             }
+        }
+        &_close {
+            position: absolute;
+            left: 20px;
         }
     }
     &__subpoints {
@@ -133,5 +138,37 @@
 @media(max-width: 600px) {
     .mobile-menu {
         display: block;
+    }
+}
+
+.hascontents{
+    &_line {
+        color: $accent;
+    }
+    &_accent {
+        color: white;
+    }
+    &__arr {
+    overflow: hidden;
+    height: 22px;
+    width: 22px;
+    right: 20px;
+    top: 11px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-90deg);
+        span {
+            display: block;
+            width: 1px;
+            height: 8.5px;
+            background-color: $accent;
+            transform: rotate(45deg);
+            margin-left: -8px;
+            &:last-child {
+                transform: rotate(-45deg);
+            }
+        }
     }
 }

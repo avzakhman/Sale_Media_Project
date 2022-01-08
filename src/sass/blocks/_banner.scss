@@ -162,6 +162,7 @@
 
 @media (max-width: 600px) {
     .banner {
+        display: none;
         &__parts {
             height: unset;
             h3 {
