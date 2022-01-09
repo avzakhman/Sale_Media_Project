@@ -3,7 +3,6 @@
     top: -285px;
     z-index: 2;
     max-width: 100%;
-    overflow: hidden;
     &__wrapper {
         display: flex;
         background-color: #fff;
@@ -82,6 +81,8 @@
 
     }
     .extra-block {
+        padding: 20px;
+        padding-top: 30px;
         width: 257px;
         min-height: 151px;
         h3 {

@@ -8,7 +8,7 @@
         background-color: #fff;
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 480px 580px;
         grid-gap: 20px;
         justify-content: space-between;
     }
@@ -34,7 +34,7 @@
     }
     address {
         padding-top: 10px;
-        padding-right: 27px;
+        padding-right: 37px;
         display: grid;
         justify-content: space-between;
         grid-template-columns: auto auto;
@@ -49,7 +49,6 @@
             font-weight: 400;
         }
         a {
-            
             font-size: 16px;
             line-height: 21px;
             color: black;
@@ -59,6 +58,11 @@
 }
 
 @media(max-width: 1230px) {
+    .cities {
+        &__wrapper {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
     
     .city-block {
         h2 {

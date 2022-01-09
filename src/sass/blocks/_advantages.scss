@@ -3,6 +3,7 @@
     z-index: 1;
     width: 100%;
     background-color: #fff;
+    padding-bottom: 17px;
     h2 {
         top: -67px;
         position: absolute;
@@ -43,8 +44,9 @@
     }
 }
 
-@media (max-width: 965px) {
+@media (max-width: 1090px) {
     .advantages {
+        padding-bottom: 0px;
         &__wrapper {
             min-width: 2360px;
             display: flex;

@@ -1,8 +1,6 @@
 .get {
     margin-top: 82px;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
     h2 {
         font-size: 30px;
         font-weight: 700;
@@ -54,6 +52,8 @@
 
 @media(max-width: 1230px) {
     .get {
+        padding-left: 20px;
+        padding-right: 20px;
         &__wrapper {
             padding: 20px 60px;
         }

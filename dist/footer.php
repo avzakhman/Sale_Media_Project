@@ -30,7 +30,7 @@
                         </a>
                         <a href="#">
                             <svg width = "32" height = "32">
-                                <use xlink:href="icons/socials/vk.svg#vk"></use>
+                                <use xlink:href="icons/socials/socials.svg#vk"></use>
                             </svg>
                         </a>
                         <a href="#">
@@ -64,19 +64,19 @@
             <div class="write-modal__socials">
                 <a href="#">
                     <svg width = "24" height = "24">
-                        <use xlink:href="icons/socials/telegram-sm.svg#telegram"></use>
+                        <use xlink:href="icons/socials/socials.svg#telegram-sm"></use>
                     </svg>
                     <p>Написать в <span>Telegram</span></p>
                 </a>
                 <a href="#">
                     <svg width = "24" height = "24">
-                        <use xlink:href="icons/socials/whatsapp-sm.svg#whatsapp"></use>
+                        <use xlink:href="icons/socials/socials.svg#whatsapp-sm"></use>
                     </svg>
                     <p>Написать в <span>Whatsapp</span></p>
                 </a>
                 <a href="#">
                     <svg width = "24" height = "24">
-                        <use xlink:href="icons/socials/viber-sm.svg#viber"></use>
+                        <use xlink:href="icons/socials/socials.svg#viber-sm"></use>
                     </svg>
                     <p>Написать в <span>Viber</span></p>
                 </a>
@@ -91,7 +91,7 @@
     <div class="mobile-banner">
         <button>
             <svg width = "22" height = "22" transform = "scale(1.5)" transform = "translate(3 3)">
-                <use xlink:href="icons/socials/whatsapp-sm.svg#whatsapp"></use>
+                <use xlink:href="icons/socials/socials.svg#whatsapp-sm"></use>
             </svg>
             whatsapp
         </button>
@@ -103,19 +103,19 @@
             <div class="portfolio-modal__socials">
                 <button>
                     <svg width = "24" height = "24">
-                        <use xlink:href="icons/socials/telegram-sm.svg#telegram"></use>
+                        <use xlink:href="icons/socials/socials.svg#telegram-sm"></use>
                     </svg>
                     telegram
                 </button>
                 <button>
                     <svg width = "24" height = "24">
-                        <use xlink:href="icons/socials/whatsapp-sm.svg#whatsapp"></use>
+                        <use xlink:href="icons/socials/socials.svg#whatsapp-sm"></use>
                     </svg>
                     whatsapp
                 </button>
                 <button>
                     <svg width = "24" height = "24">
-                        <use xlink:href="icons/socials/viber-sm.svg#viber"></use>
+                        <use xlink:href="icons/socials/socials.svg#viber-sm"></use>
                     </svg>
                     viber
                 </button>

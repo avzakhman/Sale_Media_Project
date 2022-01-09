@@ -231,37 +231,37 @@
                         <div class="clients__wrapper">
                             <div class="client-block">
                                 <svg width = "113" height = "70">
-                                    <use xlink:href="img/clients/mogov.svg#mogov"></use>
+                                    <use xlink:href="img/clients/clients.svg#mogov"></use>
                                 </svg>
                             </div>
                             <div class="client-block">
                                 <svg width = "113" height = "70">
-                                    <use xlink:href="img/clients/gazprom.svg#gazprom"></use>
+                                    <use xlink:href="img/clients/clients.svg#gazprom"></use>
                                 </svg>
                             </div>
                             <div class="client-block">
                                 <svg width = "113" height = "70">
-                                    <use xlink:href="img/clients/Union.svg#union"></use>
+                                    <use xlink:href="img/clients/clients.svg#union"></use>
                                 </svg>
                             </div>
                             <div class="client-block">
                                 <svg width = "113" height = "70">
-                                    <use xlink:href="img/clients/rospatriot.svg#rospatriot"></use>
+                                    <use xlink:href="img/clients/clients.svg#rospatriot"></use>
                                 </svg>
                             </div>
                             <div class="client-block">
                                 <svg width = "113" height = "70">
-                                    <use xlink:href="img/clients/Onf-logo.svg#onf"></use>
+                                    <use xlink:href="img/clients/clients.svg#onf"></use>
                                 </svg>
                             </div>
                             <div class="client-block">
                                 <svg width = "113" height = "70">
-                                    <use xlink:href="img/clients/obi.svg#obi"></use>
+                                    <use xlink:href="img/clients/clients.svg#obi"></use>
                                 </svg>
                             </div>
                             <div class="client-block">
                                 <svg width = "113" height = "70">
-                                    <use xlink:href="img/clients/doshirak.svg#doshirak"></use>
+                                    <use xlink:href="img/clients/clients.svg#doshirak"></use>
                                 </svg>
                             </div>
                         </div>
@@ -294,27 +294,39 @@
                     <div class="order__scroll">
                         <div class="order__wrapper">
                             <div class="order-block">
-                                <h3>1</h3>
+                                <svg>
+                                    <use xlink:href="icons/icons.svg#number01"></use>
+                                </svg>
                                 <p>Среди наших проектов - интернет-магазины, <span>интернет-порталы</span>, корпоративные IT системы, мобильные приложения</p>
                             </div>
                             <div class="order-block">
-                                <h3>2</h3>
+                                <svg>
+                                    <use xlink:href="icons/icons.svg#number02"></use>
+                                </svg>
                                 <p>Среди наших проектов - интернет-магазины, интернет-порталы,<span> корпоративные </span></p>
                             </div>
                             <div class="order-block">
-                                <h3>3</h3>
+                                <svg>
+                                    <use xlink:href="icons/icons.svg#number03"></use>
+                                </svg>
                                 <p>Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки,<span> скрытой в середине абзаца </span></p>
                             </div>
                             <div class="order-block">
-                                <h3>4</h3>
+                                <svg>
+                                    <use xlink:href="icons/icons.svg#number04"></use>
+                                </svg>
                                 <p>Если вам нужен Lorem Ipsum для<span> серьёзного проекта </span>, вы наверняка не хотите какой-нибудь шутки</p>
                             </div>
                             <div class="order-block">
-                                <h3>5</h3>
+                                <svg>
+                                    <use xlink:href="icons/icons.svg#number05"></use>
+                                </svg>
                                 <p>Если вам нужен Lorem Ipsum для серьёзного проекта, вы<span> наверняка </span> не хотите</p>
                             </div>
                             <div class="order-block">
-                                <h3>6</h3>
+                                <svg>
+                                    <use xlink:href="icons/icons.svg#number06"></use>
+                                </svg>
                                 <p>Среди наших проектов - интернет-магазины, <span>интернет-порталы</span>, корпоративные IT системы, мобильные приложения</p>
                             </div>
                         </div>
@@ -447,17 +459,17 @@
                             <use xlink:href="icons/socials/socials.svg#telegram"></use>
                         </svg>
                         <svg width = "32" height = "32">
-                            <use xlink:href="icons/socials/viber.svg#viber"></use>
+                            <use xlink:href="icons/socials/socials.svg#viber"></use>
                         </svg>
                         <svg width = "32" height = "32" transform = "scale(1.33)">
-                            <use xlink:href="icons/socials/whatsapp.svg#whatsapp"></use>
+                            <use xlink:href="icons/socials/socials.svg#whatsapp"></use>
                         </svg>
                     </div>
                     <button class="contactModalTrigger">написать</button>
                 </div>
             </div>
         </section>
-    </main>
+</main>
 
 <?php 
     include 'footer.php'

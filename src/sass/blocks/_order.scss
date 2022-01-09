@@ -14,6 +14,7 @@
     }
 }
 .order-block {
+    position: relative;
     padding: 30px;
     max-width: 380px;
     height: 184px;
@@ -22,14 +23,12 @@
     overflow: hidden;
     margin-bottom: 20px;
     display: flex;
-    h3 {
-        display: block;
-        margin-right: 14px;
-        font-size: 64px;
-        color: $accent;
-        font-weight: normal;
+    svg {
+        position: absolute;
+        margin-top: 9px;
     }
     p {
+        margin-left: 50px;
         display: block;
         position: relative;
         font-size: 14px;
@@ -88,12 +87,16 @@
             margin-right: 20px;
         }
         padding: 20px;
+        padding-right: 18px;
         max-width: 278px;
         height: 167px;
         margin-bottom: 0px;
-        h3 {
-            margin-right: 17px;
-            font-size: 48px;
+        svg {
+            margin-top: 0px;
+            display: flex;
+            max-width: 40px;
+            height: 59px;
+            transform: scale(0.75);
         }
         p {
             font-size: 14px;

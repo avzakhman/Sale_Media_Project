@@ -12,13 +12,14 @@
     <div class="mobile-menu">
 
         <div class="mobile-menu__point">
+            <div class="hascontents__arr"><span></span><span></span></div>
             <p>
                 <button class="mobile-menu__point_close"> <span></span><span></span></button>
                 <span class="mobile-menu__point_open"> социальные сети</span>
             </p>
         </div>
         <div class="mobile-menu__point hascontents">
-            <div class="hascontents__arr"><span></span><span></span></div>
+            <div class="hascontents__arr hascontents__arr_has"><span></span><span></span></div>
             <p>
                 <button class="mobile-menu__point_close"> <span></span><span></span></button>
                 <span class="mobile-menu__point_open hascontents_line">корпоративные сайты</span>
@@ -68,24 +69,28 @@
             </div>
         </div>
         <div class="mobile-menu__point">
+            <div class="hascontents__arr"><span></span><span></span></div>
             <p>
                 <button class="mobile-menu__point_close"> <span></span><span></span></button>
                 <span class="mobile-menu__point_open"> e-commerce</span>
             </p>
         </div>
         <div class="mobile-menu__point">
+            <div class="hascontents__arr"><span></span><span></span></div>
             <p>
                 <button class="mobile-menu__point_close"> <span></span><span></span></button>
                 <span class="mobile-menu__point_open"> аналитика</span>
             </p>
         </div>
         <div class="mobile-menu__point">
+            <div class="hascontents__arr"><span></span><span></span></div>
             <p>
                 <button class="mobile-menu__point_close"> <span></span><span></span></button>
                 <span class="mobile-menu__point_open"> билинг</span>
             </p>
         </div>
         <div class="mobile-menu__point">
+            <div class="hascontents__arr"><span></span><span></span></div>
             <p>
                 <button class="mobile-menu__point_close"> <span></span><span></span></button>
                 <span class="mobile-menu__point_open"> битрикс</span>
