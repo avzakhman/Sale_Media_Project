@@ -4,6 +4,7 @@
   "main": "gulpfile.js",
   "devDependencies": {
     "browser-sync": "^2.27.7",
+    "findead": "^1.2.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-imagemin": "^8.0.0",
