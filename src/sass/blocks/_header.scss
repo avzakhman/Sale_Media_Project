@@ -338,8 +338,11 @@
     .header__mobile-buttons {
         display: flex;
         padding-right: 5px;
-        button {
+        a {
             padding: 0 15px;
+            &:last-child {
+                margin-top: 2px;
+            }
         }
     }
 }

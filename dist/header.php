@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -270,12 +269,12 @@
                 </nav>
                 <a href="tel:+74951288976" class="header__phone">+7 495 128-8976</a>
                 <div class="header__mobile-buttons">
-                    <button class="open-mobmenu"><span></span> <span></span> <span></span></button>
-                    <button>
+                    <a class="open-mobmenu"><span></span> <span></span> <span></span></a>
+                    <a>
                         <svg height="22" width="22">
                             <use xlink:href="icons/icons.svg#phone"></use>
                         </svg>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,10 +1,8 @@
 <?php 
     include 'header.php'
 ?>
-
 <main class="main-bg">
         <section class="main">
-            <img src="img/bg.svg" alt="background">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="container">
@@ -469,8 +467,7 @@
                 </div>
             </div>
         </section>
-</main>
-
+    </main>
 <?php 
     include 'footer.php'
 ?>
